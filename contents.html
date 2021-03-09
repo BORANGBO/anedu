@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<meta charset='utf-8'>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		body{
+			font-family:'맑은고딕';
+			font-size:16px;
+			color:#444444;
+		}
+		li{list-style-type:none;}
+		}
+		.clear{
+			clear:both;
+		}
+		header{
+			width:1140px;
+			height:100px;
+			margin:0 auto;
+			/*border:solid 1px red;*/
+		}
+	#logo {
+		float:left;
+		margin:20px 0 0 20px;
+		/*border:solid 1px red;*/
+	}
+	#menus{
+		float:right;
+		/*border:solid 1px red;*/
+	}
+	#top_menu{
+		text-align: right;
+		margin-top:20px;
+		/*border:solid 1px red;*/
+	}
+	#main_menu{
+		margin-top:20px;
+		font-family:'맑은고딕';
+		font-size:20px;
+		color:black;
+		/*border:solid 1px red;*/
+	}
+	#main_menu li{
+		display:inline;
+		margin-left:80px;
+	}
+	#main_img{
+		width:90%;
+		height:100px;
+		background-image: url('img/main_img.jpg');
+		background-repeat:no-repeat;
+		background-position:top center;
+		margin:20px 20px 20px 80px;
+	}
+	#contents{
+		width:1140px;
+		margin:0 auto;
+	}
+	#sub_menu{
+		width:234px;
+		float:left;
+		margin-top:25px;
+	}
+	#sub_menu h3{
+		font-size:18px;
+		color:#92d3ed;
+		padding:12px;
+		background-color:#516e7f;
+	}
+	#sub_menu li{
+		padding :10px;
+		border-bottom:dotted 1px #cccccc;
+	}
+	#main_contents{
+		width:880px;
+		float:right;
+		margin-top:25px;
+		/*border:solid 1px red;*/
+	}
+	#main_contents h3{
+		font-size:22px;
+		padding-bottom:8px;
+		border-bottom:solid 1px #cccccc;
+	}
+	#main_contents p{
+		margin-top:30px;
+		line-height:180%;
+	}
+	#main_contents #figure{
+		margin-top:30px;
+		text-align:center;
+	}
+	#main_contnets li{
+		padding:5px;
+	}
+	footer{
+		width:100%;
+		height:150px;
+		margin-top:500px;
+		background-color:#2c2a29;
+	}
+	#footoer_box{
+		width:1140px;
+		/*height:150px;*/
+		margin:0 auto;
+		/*border:solid 1px green;*/
+	}
+	#footer_logo{
+		float:left;
+		margin:50px;
+		/*border:solid 1px red;*/
+	}
+	#address{
+		float:right;
+		margin:50px 30px 0 0;
+		color:white;
+		/*border:solid 1px red; */
+	}
+	a{
+		text-decoration:none;
+		color:black;
+	}
+	</style>
+</HEAD>
+<body>
+	<header>
+	<div id='logo'>
+		<a href='index.html'><img src='img/anedu.png'></a>
+	</div>
+	<nav id = 'menus'>
+		<div id='top_menu'>
+			로그인 | 회원가입 | 공지사항
+		</div>
+		<ul id='main_menu'>
+			<a href='contents.html'><li>ANEDU의 시작</li></a>
+			<li>간호지식</li>
+			<li>실무지식</li>
+			<li>의학용어</li>
+			<li>심화학습</li>
+		</ul>
+	</nav>
+</header>
+<section id='main_img'>
+	</section>
+	<section id='contents'>
+		<nav id='sub_menu'>
+			<a href='contents.html'><h3>ANEDU의 시작</h3></a>
+			<ul>
+				<li>간호지식</li>
+				<li>실무지식</li>
+				<li>의학용어</li>
+				<li>심화학습</li>
+			</ul>
+		</nav>
+		<div id='main_contents'>
+			<h3>ANEDU의 시작</h3>
+			<P>간호조무사로 일하면서 손이 빠르다, 빠릿빠릿하다, 눈치가빠르다. 센스가 있다 라는 말을 들으려면 기초 지식이 있어야 한다는 사실을 근무하면서 깨닳았습니다. 하지만 현실적으로 간호조무사 교재가 아닌 실무 지식을 체계적으로 배울수 있는 공간이 없어서 이렇게 사이트를 제작하게 되었습니다. <br></P>
+			<br>
+			<p>혹시 위키피디아 라는 사이트를 아시나요? 위키피디아는 사용자 참여의 온라인 백과사전으로 누구나 자유롭게 글을 쓸 수 있습니다. 제가 만든 ANEDU 역시 체계적으로 정리해논 항목 또는 내용을 사용자가 자유롭게 글을 쓰고 수정할수 있도록 제작하였습니다.</p>
+			<br>
+			<P>현재 재직중이신 분들은 본인의 경험담을 공유해주시고 새롭게 입사하실 분들은 자료를 통해 공부함으로써 성장할수 있는 공간입니다.</P>
+			</div>
+		</section>
+		<div class='clear'></div><!--float 속성 해제-->
+		<footer>
+			<div id='footer_box'>
+				<div id='footer_logo'>
+					<img src='img/anedu1.png'>
+				</div>
+				<ul id='address'>
+					<li>간호조무사 실무 교육을 위한 공간</li>
+					<li>TEL : 000-000-0000</li>
+					<li>copyright ⓒ ANEDU ALL RIGHTS RESERVED</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</HTML>
